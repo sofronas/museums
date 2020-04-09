@@ -1,0 +1,493 @@
+@import url("media.css");
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+:after,:before{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+body{
+	background-image: url('../images/background.jpg');
+	/*background-color: #A1AFB6;*/
+	/*background-color: white;*/
+	/*background: url(https://www.psdgraphics.com/file/black-wood-background.jpg);*/
+	margin: 0px;
+    padding: 0px;
+    /*background-position: center; */
+}
+
+.container{
+	/*border: 1px solid red;*/
+}
+
+.srow{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.sfHeader{
+	background-color: white;
+	margin: 0 auto; 
+	width: 100%;
+}
+
+.uopLogo, .cLogo{
+	width: 80px;
+	height: 80px;
+}
+
+.blog_title{
+	padding-top: 8.5px;
+	/*color: rgba(52, 152, 219, 1) orange;*/
+	color: #007abe;
+	text-align: center;
+	font-size: 30px;
+}
+
+.blog_subtitle{
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+.headerLogo{
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+	height: auto;
+}
+
+.safternav, .sbeforefoot ,.sbeforenav {
+    border-bottom: 4px solid #007abe;
+    /*border-bottom: 4px solid #FFA500;*/
+    box-shadow: 0 2px 6px rgba(0,0,0,0.49);
+    filter: drop-shadow(0 0 30px #333);
+}
+
+.sdownav {
+	background-color: #3d85c6;
+	padding-bottom: 0;
+	height: 5px;
+	font-size: 12px;
+	position: relative;
+	overflow: hidden;
+	filter: drop-shadow(0 -2mm 4mm #333);
+}
+
+.sofron_top_nav{
+	background-color: #007abe !important;
+	font-size: 12px !important;
+	/*padding: 0rem 0rem;*/
+}
+
+.sofron_top_nav ul li a{
+	color: white !important;
+}
+
+.sofron_top_nav ul li a:hover{
+	color: black !important;
+	background-color: white !important;
+}
+
+.sofron_main_nav{
+	background-color: black !important;
+}
+
+.sofron_main_nav > li {
+	float: left;
+}
+
+.sofron_main_nav li a:hover{
+	text-decoration: none;
+    display:inline-block;
+}
+
+.spanclock {
+	color: white;
+	display: block;
+	padding-top: 7.5px;
+	
+}
+
+.sofron_top_nav_ul{
+	font-size: 13.5px;
+}
+
+.sofron_top_nav_ul a {
+	color: #e2e2e2 !important;
+}
+
+.sofron_top_nav_ul a:hover{
+	background-color: black !important;
+	color: #e2e2e2 !important;
+}
+
+/* Top nav icons */
+.t{
+	margin-top: -2.5px;
+	margin-right: 0.5px;
+}
+
+.noshow{
+	display: none;
+}
+
+
+#post_area{
+	background-color: white;
+}
+
+.sofron_p{
+	color: white !important;
+}
+
+.sofron_quotes{
+	background-color: #007ABE;
+	padding: 10px 20px;
+	margin: 0 0 20px;
+	font-size: 17.5px;
+	border-left: 5px solid #eee;
+}
+
+#display-4{
+	color: white;
+}
+
+.text_c{
+	text-align: center;
+}
+
+.sofron_footer_quotes{
+	background-color: #2E2E2E;
+	padding: 10px 20px;
+	margin: 0 0 20px;
+	border-left: 5px solid #eee;
+}
+
+.sofron_hr{
+	margin-top: -1px;
+	background-color: white;
+}
+
+#home{
+	background-color: #007ABE;
+	/*background-color: #FFA500;*/
+	position: relative;
+	display: block;
+}
+
+.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 15px;
+}
+
+.sofron_static{
+	position: static !important;
+}
+
+.noList{
+	list-style: none;
+	margin-left: 0px !important;
+	/*border: 1px solid red;*/
+}
+
+.noList:last-child{
+	padding-bottom: 20px;
+}
+
+.white_hr{
+	display: block; 
+	height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    /*margin: 1em 0; */
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.dropdown-header{
+	font-size: 18px !important;
+	color: #3498DB !important;
+	margin-left: -19px !important;
+	font-weight: bold !important;
+}
+
+.items_li{
+	color: white;
+	padding-top: 5px;
+	height: 100%;
+}
+
+.items_li a{
+	color: white;
+}
+
+.items_li:hover, .items_li a:hover{
+	color: white;
+	background-color: #007ABE;
+	width: 100%;
+	cursor: pointer;
+}
+
+.sofron_width{
+	width: 100% !important;
+	margin-top: 3px !important;
+}
+
+.sofrn_hover{
+	list-style: none;
+}
+
+.sofron_hover:hover{
+	color: white;
+	background-color: #007abe;
+	text-decoration: none;
+}
+
+
+.flex-container1 {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+
+.sofron_list_unstyled{
+	list-style-image: url('../images/ebook.png');
+}
+
+
+#dropdownUL a{
+	color: white;
+}
+
+#dropdownUL a:hover{
+	/*background-color: #FFA500;*/
+	background-color: #007abe;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+.sofron_post div{ 
+	display: none; 
+}
+
+.sofron_post:hover>div{
+	display: block; 
+}
+
+.footAfter{
+	background-color: white;
+	text-align: center;
+}
+
+.sofron_dropdown_menu{
+	background-color: #FFA500 !important;
+	color: white !important;
+}
+
+#navbarDropdown:hover:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	box-shadow: inset 0 -5px 0 black;
+}
+
+.st1{
+	content: '';
+	width: auto;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	box-shadow: inset 0 -2px 0 black;
+}
+
+img.sofron{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.zoom {
+	transition: transform .2s;
+	width: 200px;
+	height: 200px;
+}
+
+.zoom:hover {
+	transform: scale(1.5);
+}
+
+.FAA {
+    display:none;
+}
+
+.FAQ_Pointer {
+	cursor: pointer;
+}
+
+
+.sofron_box_contact{
+	-webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+	text-align: center;
+	padding-top: 18px;
+}
+
+
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 10px; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+}
+
+.nav-link.sactive{
+	color:white;
+	background: orange;
+	height: 100%;
+}
+
+.nav-link.sactive:hover{
+	color: white !important;
+	background: #FF6702 !important;
+	height: 100% !important;
+}
+
+.sofron_notifications {
+  background-color: #555;
+  color: black !important;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.sofron_notifications:hover {
+  background: red;
+}
+
+.sofron_notifications .sofron_badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+
+/*Footer*/
+.sofron_footer{
+	border-radius: 0px 0px 5px 5px;
+	background: white;
+	box-shadow: 0px 5px 0px 0px grey;
+}
+
+
+
+/* Filter */
+.sofron_filter {
+	text-align: center;
+}
+
+/* Dividers */
+.sofron_div_r {
+	border-right: 3px solid grey; 
+	height: auto;
+}
+
+.sofron_div_l {
+	border-left: 3px solid grey; 
+	height: auto;
+}
+
+/* counter museum*/
+.notification:hover {
+	background: red;
+	color: white;
+}
+
+.notification .badge {
+	position: absolute;
+	top: 15px;
+	right: 2px;
+	padding: 5px 10px;
+	border-radius: 50%;
+	background: red;
+	color: white;
+	/*display: none;*/ /* Show only when hover */
+}
+
+.notification:hover > .badge{
+	/*background: #007abe;*/
+	background-color: #007bff;
+	color: white;
+	/*display: inline;*/ /* Show only when hover */
+}
+
+
+
+.sofron_back:hover {
+	background: 
+}
+
+
+.sa {
+	text-decoration: none !important; 
+}
+
+.sa:hover {
+	color: red;
+}
+
+/*debug*/
+.sb {
+	border: 1px solid red;
+}
+
+/* List of museum */
+
+.p-3:hover {
+	background: #007ABE;
+	color: white;
+}
+
+.p-3:hover > .order-lg-1 .spar {
+	color: black !important;
+}
+
+.order-lg-1:hover > .spar {
+	color: black !important;
+}

@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="el">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <!-- Title -->
+        <title>Greece Museum Guide</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <!-- Custom Css -->
+    	<link rel="stylesheet" type="text/css" href="css/sofron.css">
+    	<link rel="stylesheet" type="text/css" href="css/body_area.css">
+    	<link rel="stylesheet" type="text/css" href="css/navbar_style.css">
+    	<link rel="stylesheet" type="text/css" href="css/clock.css">
+    	<link rel="stylesheet" type="text/css" href="css/footer_style.css">
+        <link rel="stylesheet" type="text/css" href="css/checkBoxes.css">
+
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+
+        <!-- JS -->
+        <script src="js/time.js"></script>
+    </head>
+    <body>
+        <a onclick="topFunction()" id="myBtn" title="Πήγαινε με προς τα πάνω">
+            <img src="images/gotoparrow.svg" width="48px" height="48px">
+        </a>
+        <!-- Top Navigation Menu -->
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark py-md-0 sofron_top_nav">
+                <!-- Mobile Title -->
+                <a class="navbar-brand py-0 noshow" id="topProgramming" href="">
+                    <i class="far fa-calendar-alt"></i> Greek Museums
+                </a>
+                
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar1">
+                    <ul class="navbar-nav sofron_top_nav_ul">
+                        <!-- Time -->
+                        <li class="nav-item">
+                                <span class="spanclock">
+                                    <span id="ora">
+                                        <script type="text/javascript">
+                                            window.onload = time_clock('ora');
+                                        </script>
+                                    </span>
+                                </span>
+                        </li>
+                        <li class="nav-item">
+                            <!-- index. -->
+                            <a class="nav-link" href="index.html" id="index_click"><i class="fa fa-fw fa-home t" width="32" height="32"></i> Αρχική</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- aboutus. -->
+                            <a class="nav-link" href="aboutus.html"><img class="t" src="images/aboutus.png" width="16px" height="16px"> Σχετικά</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- contact. -->
+                            <a class="nav-link" href="contact.html"><img class="t" src="images/epikinonia.png" width="16px" height="16px"> Επικοινωνία</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- sitemap. -->
+                            <a class="nav-link" href="sitemap.html"><img class="t" src="images/sitemap.png" width="16px" height="16px"> Sitemap</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- faq. -->
+                            <a class="nav-link" href="faq.html"><img class="t" src="images/faq.png" width="16px" height="16px"> Συχνές Ερωτήσεις</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End of Top Navigation Menu -->
+
+        <!-- Image -->
+        <div class="container">
+            <header class="sfHeader">
+                <div class="row">
+                    <div class="col-md-3 headerP">
+                        <a href="http://dit.uop.gr/index.php/el/">
+                            <img align="middle" id="uopLogo" class="uopLogo" src="images/logo.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 headerP">
+                        <h2 class="blog_title">Greek Museums</h2>
+                        <h4 class="blog_subtitle">Πανεπιστήμιο Πελοποννήσου | Τμήμα Πληροφορικής και Τηλεπικοινωνιών</h4>
+                    </div>
+                    <div class="col-md-3 headerP">
+                        <a href="" id="a">
+                            <img align="middle" id="cLogo" class="cLogo" src="images/museum1.png">
+                        </a>
+                        <a href="">
+                            <img align="right" id="cLogo1" class="cLogo" src="images/museum1.png">
+                        </a>
+
+                    </div>  
+                </div> <!-- end of row -->
+            </header>
+        </div>
+        <!-- End of Image -->
+
+
+        <!-- Main Navigation Bar -->
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark sofron_main_nav">
+                <a class="navbar-brand active" id="home" href="">
+                    <span>
+                        <i class="fas fa-home"></i>
+                    </span>
+                </a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav" id="dropdownUL">
+                        <!-- Scores -->
+                        <li class="nav-item sofron_static">
+                            <a class="nav-link" href="">
+                                <i class="fas fa-trophy"></i>   Test
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="sbeforenav"></div>
+        </div>
+        <!-- End of Main Navigation Bar -->
+
+
+        <!-- Body -->
+        <div class="container">
+            <div class="container" style="background: white;">
+                <div class="row">
+                    <div class="col-1">
+                    </div>
+                    <!-- <div class="col-10" style="text-align: center;">
+                        <img src="images/output2.png" usemap="#image-map">
+
+                        <map name="image-map">
+                            <area target="" alt="Axaia" title="Axaia" href="" coords="478,379,1198,39,1927,428,1828,715,1707,906,1328,993,615,680" shape="poly">
+                            <area target="" alt="Hliea" title="Hliea" href="" coords="52,933,398,556,1061,996,1064,1443,1274,1606,874,1803" shape="poly">
+                            <area target="" alt="Messinia" title="Messinia" href="" coords="904,1889,1278,1796,1591,2322,1781,2472,1881,2772,1867,3029,938,2962,721,2296" shape="poly">
+                            <area target="" alt="Arkadia" title="Arkadia" href="" coords="1121,1026,1970,1093,2230,1719,2517,1809,2833,2559,2507,2539,2294,2059,2077,1959,1994,2009,2007,2129,1871,2096,1737,2066,1731,2269,1664,2276,1384,1913,1374,1726" shape="poly">
+                            <area target="" alt="Argolida" title="Argolida" href="" coords="2087,1135,2184,1009,2230,1092,2553,1158,2873,1245,3146,1282,3766,1652,3176,2001,2270,1618" shape="poly">
+                            <area target="" alt="Kori" title="Kori" href="" coords="2010,416,3126,563,3133,1176,1834,963" shape="poly">
+                            <area target="" alt="Lakonia" title="Lakonia" href="" coords="1757,2140,2293,2104,2503,2577,2923,2697,3019,3070,3236,3726,2097,3762,1924,3598,1924,2905,1924,2662,1837,2302" shape="poly">
+                        </map>
+                        <map name="image-map">
+                            <area target="" alt="Hleia" title="Hleia" href="1" coords="2,66,30,38,65,70,81,59,94,120,65,132" shape="poly">
+                            <area target="" alt="axaia" title="axaia" href="1" coords="34,18,84,2,139,28,123,70,107,74,77,54,66,65,33,35" shape="poly">
+                            <area target="" alt="Korinthos" title="Korinthos" href="1" coords="132,67,146,29,233,46,231,87" shape="poly">
+                            <area target="" alt="argolida" title="argolida" href="1" coords="149,77,165,76,271,119,228,142,180,123,164,120" shape="poly">
+                            <area target="" alt="arkadia" title="arkadia" href="1" coords="92,75,98,129,118,160,159,142,196,186,210,181,188,134,163,125,146,92,138,74" shape="poly">
+                            <area target="" alt="mesinia" title="mesinia" href="1" coords="63,134,97,136,129,170,140,223,90,227,42,185" shape="poly">
+                            <area target="" alt="lakonia" title="lakonia" href="1" coords="131,163,166,154,198,191,215,185,223,222,213,233,232,268,149,263" shape="poly">
+                        </map>
+                    </div> -->
+                    <div class="col-10" style="text-align: center;">
+                        <div class="row">
+                            <div class="col">
+                                <h2>Επιλέξτε Νομό:</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="custom-control custom-radio image-checkbox">
+                                    <input type="radio" class="custom-control-input" id="arkadiaId" name="ck2" checked="checked">
+                                    <label class="custom-control-label" for="arkadiaId">
+                                         Νομός Αρκαδίας
+                                        <img src="images/map/Arkadia.png" alt="#" class="img-fluid" style="background: black;">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-radio image-checkbox">
+                                    <input type="radio" class="custom-control-input" id="messiniaId" name="ck2">
+                                    <label class="custom-control-label" for="messiniaId">
+                                        Νομός Μεσσηνίας
+                                        <img src="images/map/Messinia.png" alt="#" class="img-fluid" style="background: black;">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-radio image-checkbox">
+                                    <input type="radio" class="custom-control-input" id="lakoniaId" name="ck2">
+                                    <label class="custom-control-label" for="lakoniaId">
+                                        Νομός Λακωνίας
+                                        <img src="images/map/Lakonia.png" alt="#" class="img-fluid" style="background: black;">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-radio image-checkbox">
+                                    <input type="radio" class="custom-control-input" id="ilieiaId" name="ck2">
+                                    <label class="custom-control-label" for="ilieiaId">
+                                        Νομός Ηλείας
+                                        <img src="images/map/Ileias.png" alt="#" class="img-fluid" style="background: black;">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="custom-control custom-radio image-checkbox">
+                                    <input type="radio" class="custom-control-input" id="argolidaId" name="ck2">
+                                    <label class="custom-control-label" for="argolidaId">
+                                         Νομός Αργολίδας
+                                        <img src="images/map/Argolida.png" alt="#" class="img-fluid" style="background: black;">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-radio image-checkbox">
+                                    <input type="radio" class="custom-control-input" id="axaiaId" name="ck2">
+                                    <label class="custom-control-label" for="axaiaId">
+                                        Νομός Αχαΐας
+                                        <img src="images/map/Axaias.png" alt="#" class="img-fluid" style="background: black;">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-radio image-checkbox">
+                                    <input type="radio" class="custom-control-input" id="korId" name="ck2">
+                                    <label class="custom-control-label" for="korId">
+                                        Νομός Κορίνθου
+                                        <img src="images/map/Korinthos.png" alt="#" class="img-fluid" style="background: black;">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-8"></div>
+                            <div class="col-md-3">
+                                <br>
+                                <button type="button" onclick="checkMap()" class="btn btn-success">Αναζήτηση <i class="fas fa-search-location"></i></button>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <div class="container">
+            <div class="safternav"></div>
+                <footer class="footAfter">
+                    Copyright ©
+                    <script type="text/javascript">
+                        var year = new Date();
+                        var y = year.getFullYear();
+                        var startY = 2020;
+                        if(y === startY){
+                            document.write(startY);
+                        } else {
+                            document.write(startY);
+                            document.write("-");
+                            document.write(y);
+                        }
+                    </script>
+                    | Designed by <a href="https://sofronas.github.io" target="_blank">Sofronas Konstantinos Sotirios</a> - All rights reserved
+                </footer>
+        </div>
+        <!-- Footer ends here -->
+
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- Custom JavaScript -->
+        <script src="js/mapper.js"></script>
+    </body>
+</html>

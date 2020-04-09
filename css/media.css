@@ -1,0 +1,129 @@
+/* Media Queries*/
+
+/* Smartphones */
+@media only screen and (max-width: 600px) {
+	.sofron_top_nav{
+		height: auto;
+		padding:.5rem 1rem !important;
+	}
+	.noshow{
+		display: block !important;
+	}
+	.sofron_top_nav_ul a:hover{
+		height: auto;
+		width: auto;
+	}
+	#uopLogo,#cLogo{
+		display: block;
+    	margin: 0 auto;
+	}
+	#cLogo1{
+		display: none;
+	}
+	#clock{
+		display: none;
+	}
+
+
+	.flex-container > div{
+		width: 100% !important;
+	}
+
+	.flex-container1 > div{
+		width: 100% !important;
+	}
+
+	.showcase{
+		background: url('../images/welcome.jpg');
+		margin-left: 0px  !important;
+		margin-right: -6.5px !important;
+	}
+	#display-4{
+		/*background-color: #3399FF;*/
+		color: black;
+		font-size: 55px;
+	}
+	.sofron_p{
+		color: black !important;
+	}
+
+	.flex-container1{
+		display: flex;
+		flex-wrap: wrap !important;
+	}
+
+	.flex-container1 > div{
+		padding-top: 25px;
+	}
+
+	.sofron_h5_box_contact{
+		padding-bottom: 25px;
+	}
+
+	.footAfter{
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+}
+
+/* Tablets */
+@media only screen and (max-width: 992px) {
+	.sofron_top_nav{
+		height: auto;
+	}
+	.noshow{
+		display: block;
+	}
+	.sofron_top_nav_ul a:hover{
+		height: auto;
+		width: auto;
+	}
+	#uopLogo,#cLogo{
+		display: block;
+    	margin: 0 auto;
+	}
+	#cLogo1{
+		display: none;
+	}
+	.footAfter{
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+}
+
+/* Laptop/Desktop */
+@media only screen and (min-width: 992px) {
+	/*#headerLogo{
+		display: none;	
+	}*/
+
+	#cLogo{
+		display: none;
+	}
+	#cLogo1{
+		display: block;
+	}
+	.flex-container {
+		justify-content: center;
+	}
+	
+	.flex-container1 > div {
+		width: 100%;
+		margin: 10px;
+		text-align: center;
+	}
+	#dropdownUL{
+	    height: 41px;
+	    text-decoration: none;
+	}
+
+	.sofron_h5_box_contact{
+		padding-bottom: 25px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.footAfter{
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+	}
+}
