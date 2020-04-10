@@ -166,92 +166,20 @@
                 			</div>
                 			<div class="sofron_div_r"></div>
                 			<div class="container">
-                				<!-- <div class="row">
-	            					<div class="col">
-		                				<input type="radio" id="contactChoice1" name="contact" value="email">
-									    <label for="contactChoice1">Αρχαιολογικό</label>
-										<br>
-									    <input type="radio" id="contactChoice2"
-									     name="contact" value="phone">
-									    <label for="contactChoice2">Β'Παγκόσμιος</label>
-										<br>
-									    <input type="radio" id="contactChoice3"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Βοτανικό</label>
-										<br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Βυζαντινό</label>
-										<br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Γεωλογικό</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Δασικό</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Εκκλησιαστικό</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Ιδιωτικό</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Ιστορικό</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Λαογραφικό</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Μουσικα οργανα</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Παιδικο</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Παιχνιδια</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Περιβαλλοντικο</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Πολεμικο</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Πολιτιστικό</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Προιστορικο</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Τεχνολογικο</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Υδροκινησης</label>
-									    <br>
-									    <input type="radio" id="contactChoice4"
-									     name="contact" value="mail">
-									    <label for="contactChoice3">Φυσικης Ιστοριας</label>
-									    <br>
-									</div>
-									<div class="sofron_div_r"></div>
-								</div> -->
 								<div class="row">
-									<div class="col">
+									<div class="col" style="text-align: center;">
+										<!-- Toggler/collapsibe Button -->
+						                <button class=" btn btn-primary" type="button" data-toggle="collapse" data-target="#CategoryFilter">
+						                    <i class="fas fa-filter"></i> Λίστα Φίλτρων
+						                </button>
+						                <br>
+						            </div>
+						            <div class="sofron_div_r"></div>
+						        </div>
+						        <div class="row">
+						            <div class="col">
+						            	<br>
+										<div class="panel-collapse collapse" id="CategoryFilter">
 									    <div class="list-group" id="list-tab" role="tablist">
 									      <a class="list-group-item list-group-item-action active notification" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-list"></i>  Όλα τα μουσεία <span class="badge">3</span></a>
 
@@ -310,6 +238,7 @@
 
 									      <a class="list-group-item list-group-item-action notification" id="ph_list" data-toggle="list" href="#ph_m" role="tab" aria-controls="settings"> <i class="fas fa-sun"></i>  Φυσικής Ιστοριάς <span class="badge">3</span></a>
 									    </div>
+										</div>
 									</div>
 									<div class="sofron_div_r"></div>
 								  </div>
@@ -318,23 +247,32 @@
                 		</div>
 
                 	</div>
+
                 	<!-- Museum List -->
-                	<div class="col-md-5">
+                	<div class="col-md-8">
 						<div class="tab-content" id="nav-tabContent">
+							<!-- Category ALL -->
 							<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+							<!-- Category ALL -->
+								<!-- Item -->
 								<div class="row">
 									<ul class="list-group shadow">
-										<li class="list-group-item"> 
-											<a class="sa" href="www.google.gr">
+										<li class="list-group-item">  
+											<a class="sa" href="#" id="firstm" data-toggle="modal" data-target="#amnauplio">
 												<div class="media align-items-lg-center flex-column flex-lg-row p-3">
 													<div class="media-body order-2 order-lg-1">
-														<h5 class="mt-0 font-weight-bold mb-2">Awesome product</h5>
-														<p class="font-italic text-muted mb-0 small spar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit fuga autem maiores necessitatibus.</p>
+														<h5 class="mt-0 font-weight-bold mb-2">Αρχαιολογικό Μουσείο Ναυπλίου</h5>
+														<p class="font-italic text-muted mb-0 small spar">
+															<i class="fas fa-map-marker-alt"></i>  Διεύθυνση: Πλατεία Συντάγματος, Τ.Κ. 21 100, Ναύπλιο.<br>
+															<i class="fas fa-phone-volume"></i>  Τηλέφωνο: +30 27520 27502 <br>
+															<i class="fas fa-at"></i>   Email: efaarg@culture.gr<br>
+															<i class="fas fa-laptop-code"></i> Website: http://odysseus.culture.gr/h/1/gh155.jsp?obj_id=3462
+														</p>
 														<div class="d-flex align-items-center justify-content-between mt-1">
-															<h6 class="font-weight-bold my-2">$120.00</h6>
+															<h6 class="font-weight-bold my-2">Ολόκληρο: €6, Μειωμένο: €3</h6>
 														</div>
 													</div>
-													<img src="https://media-cdn.tripadvisor.com/media/photo-i/0f/df/aa/52/a-praca-syntagamatos.jpg" alt="Generic placeholder image" width="200" class="ml-lg-5 order-1 order-lg-2">
+													<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rooms_of_Archaeological_Museum_of_Nafplio_01.jpg/1280px-Rooms_of_Archaeological_Museum_of_Nafplio_01.jpg" width="200" class="ml-lg-5 order-1 order-lg-2">
 												</div>
 											</a>
 										</li>
@@ -360,7 +298,31 @@
 								</div>
 
 							</div>
-							<div class="tab-pane fade sofron_back" id="ancient_m" role="tabpanel" aria-labelledby="ancient_m_list">ancient</div>
+							<div class="tab-pane fade sofron_back" id="ancient_m" role="tabpanel" aria-labelledby="ancient_m_list">
+								<div class="row">
+									<ul class="list-group shadow">
+										<li class="list-group-item">  
+											<a class="sa" href="#" id="firstm" data-toggle="modal" data-target="#amnauplio">
+												<div class="media align-items-lg-center flex-column flex-lg-row p-3">
+													<div class="media-body order-2 order-lg-1">
+														<h5 class="mt-0 font-weight-bold mb-2">Αρχαιολογικό Μουσείο Ναυπλίου</h5>
+														<p class="font-italic text-muted mb-0 small spar">
+															<i class="fas fa-map-marker-alt"></i>  Διεύθυνση: Πλατεία Συντάγματος, Τ.Κ. 21 100, Ναύπλιο.<br>
+															<i class="fas fa-phone-volume"></i>  Τηλέφωνο: +30 27520 27502 <br>
+															<i class="fas fa-at"></i>   Email: efaarg@culture.gr<br>
+															<i class="fas fa-laptop-code"></i> Website: http://odysseus.culture.gr/h/1/gh155.jsp?obj_id=3462
+														</p>
+														<div class="d-flex align-items-center justify-content-between mt-1">
+															<h6 class="font-weight-bold my-2">Ολόκληρο: €6, Μειωμένο: €3</h6>
+														</div>
+													</div>
+													<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rooms_of_Archaeological_Museum_of_Nafplio_01.jpg/1280px-Rooms_of_Archaeological_Museum_of_Nafplio_01.jpg" width="200" class="ml-lg-5 order-1 order-lg-2">
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
 							<div class="tab-pane fade" id="war_m" role="tabpanel" aria-labelledby="war_list">war</div>
 							<div class="tab-pane fade" id="votanik_m" role="tabpanel" aria-labelledby="votanik_list">votanik</div>
 							<div class="tab-pane fade" id="vyzan_m" role="tabpanel" aria-labelledby="vyzan_list">vyzan</div>
@@ -383,12 +345,9 @@
 						</div>
                 	</div>
                 	<!-- Museum List -->
-                	<div class="col-md-4 sofron_div_l">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+
+                	<div class="col-md-1 sofron_div_l"></div>
                 </div>
                 <br>
             </div>
@@ -416,9 +375,136 @@
         </div>
         <!-- Footer ends here -->
 
+
+
+        <!-- Modal Section -->
+        <div class="modal" id="amnauplio">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h4 class="modal-title"> <i class="fas fa-hotel"></i>  Αρχαιολογικό Μουσείο Ναυπλίου</h4>
+						<button type="button" class="close" data-dismiss="modal"><i class="fas fa-times"></i></button>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body">
+						<div class="container">
+							<div class="row">
+								<!-- Text -->
+								<div class="col-md-8">
+									<p>
+										<i class="fas fa-map-marker-alt"></i>  Διεύθυνση: Πλατεία Συντάγματος, Τ.Κ. 21 100, Ναύπλιο.<br>
+										<i class="fas fa-phone-volume"></i>  Τηλέφωνο: +30 27520 27502 <br>
+										<i class="fas fa-at"></i>   Email: efaarg@culture.gr<br>
+										<i class="fas fa-laptop-code"></i> Website: <a href="http://odysseus.culture.gr/h/1/gh155.jsp?obj_id=3462" target="_blank">Πατήστε εδώ</a>
+									</p>
+								</div>
+								<!-- Photos -->
+								<div class="col-md-2">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rooms_of_Archaeological_Museum_of_Nafplio_01.jpg/1280px-Rooms_of_Archaeological_Museum_of_Nafplio_01.jpg" width="200" class="ml-lg-5 order-1 order-lg-2"/>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapsepriceAMNAUPLIOU" aria-expanded="false" aria-controls="collapsepriceAMNAUPLIOU">
+   									<i class="fas fa-money-bill-wave"></i>  Τιμές Εισητηρίων
+  								</button>
+								<div class="collapse" id="collapsepriceAMNAUPLIOU">
+									<div class="card card-body">
+										<table class="table">
+											<thead>
+												<tr>
+													<th scope="col">Τιμές Εισητηρίων:</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">Ολόκληρο:</th>
+													<td>6 €</td>
+												</tr>
+												<tr>
+													<th scope="row">Μειωμένο:</th>
+													<td>3 €</td>
+												</tr>
+												<tr>
+													<th scope="row">Νοέμβριος-Μάρτιος:</th>
+													<td>3 €</td>
+												</tr>
+												<tr>
+													<th scope="row">Απρίλιος-Οκτώβριος:</th>
+													<td>6 €</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseorarioAMNAUPLIOU" aria-expanded="false" aria-controls="collapseorarioAMNAUPLIOU">
+   									<i class="fas fa-clock"></i>  Ωράριο Λειτουργίας
+  								</button>
+								<div class="collapse" id="collapseorarioAMNAUPLIOU">
+									<div class="card card-body">
+										<table class="table">
+											<thead>
+												<tr>
+													<th scope="col">Ωράριο Λειτουργίας:</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">Χειμερινό</th>
+													<td>08:00-15:00</td>
+												</tr>
+											<tr>
+												<th scope="row">Θερινό</th>
+												<td>08:00-15:00</td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapsekleistoAMNAUPLIOU" aria-expanded="false" aria-controls="collapsekleistoAMNAUPLIOU">
+   									<i class="fas fa-exclamation-triangle"></i>  Κλειστά
+  								</button>
+								<div class="collapse" id="collapsekleistoAMNAUPLIOU">
+									<div class="card card-body">
+										<ul>
+											<li>Κάθε Δευτέρα, το μουσείο είναι κλειστό!</li> <br> <li>Μεγάλη Παρασκευή: 12.00-15.00</li>
+										</ul>
+										<br> <p>Ημέρες Αργίας</p> <br>
+										<ul>
+											<li>1 Ιανουαρίου: κλειστά</li>
+											<li>25 Μαρτίου</li>
+											<li>1 Μαΐου</li>
+											<li>Κυριακή του Πάσχα</li>
+											<li>Χριστούγεννα 25 Δεκεμβρίου</li>
+											<li>26 Δεκεμβρίου</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Modal footer -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Κλείσιμο <i class="fas fa-times"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!-- Modal Section -->
+
         <!-- JavaScript -->
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="js/changer.js"></script>
     </body>
 </html>

@@ -491,3 +491,13 @@ img.sofron{
 .order-lg-1:hover > .spar {
 	color: black !important;
 }
+
+
+
+.sofron_no_a {
+	text-decoration: none;
+}
+
+.sofron_no_a:hover {
+	text-decoration: none;
+}
