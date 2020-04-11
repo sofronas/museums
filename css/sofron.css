@@ -479,12 +479,12 @@ img.sofron{
 
 /* List of museum */
 
-.p-3:hover {
-	background: #007ABE;
-	color: white;
+.list-group-item:hover {
+	background: #CDCDCD;
+	color: red;
 }
 
-.p-3:hover > .order-lg-1 .spar {
+.p-2:hover > .order-lg-1 .spar {
 	color: black !important;
 }
 
