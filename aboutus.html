@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="el">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <!-- Title -->
+        <title>Greece Museum Guide</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <!-- Custom Css -->
+    	<link rel="stylesheet" type="text/css" href="css/sofron.css">
+    	<link rel="stylesheet" type="text/css" href="css/body_area.css">
+    	<link rel="stylesheet" type="text/css" href="css/navbar_style.css">
+    	<link rel="stylesheet" type="text/css" href="css/clock.css">
+    	<link rel="stylesheet" type="text/css" href="css/footer_style.css">
+        <link rel="stylesheet" type="text/css" href="css/checkBoxes.css">
+
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+
+        <!-- JS -->
+        <script src="js/time.js"></script>
+    </head>
+    <body>
+        <a onclick="topFunction()" id="myBtn" title="Πήγαινε με προς τα πάνω">
+            <img src="images/gotoparrow.svg" width="48px" height="48px">
+        </a>
+        <!-- Top Navigation Menu -->
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark py-md-0 sofron_top_nav">
+                <!-- Mobile Title -->
+                <a class="navbar-brand py-0 noshow" id="topProgramming" href="">
+                    <i class="far fa-calendar-alt"></i> Greek Museums
+                </a>
+                
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar1">
+                    <ul class="navbar-nav sofron_top_nav_ul">
+                        <!-- Time -->
+                        <li class="nav-item">
+                                <span class="spanclock">
+                                    <span id="ora">
+                                        <script type="text/javascript">
+                                            window.onload = time_clock('ora');
+                                        </script>
+                                    </span>
+                                </span>
+                        </li>
+                        <li class="nav-item">
+                            <!-- index. -->
+                            <a class="nav-link" href="index.html" id="index_click"><i class="fa fa-fw fa-home t" width="32" height="32"></i> Αρχική</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- aboutus. -->
+                            <a class="nav-link" href="aboutus.html"><img class="t" src="images/aboutus.png" width="16px" height="16px"> Σχετικά</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- contact. -->
+                            <a class="nav-link" href="mailto:sofronas.konstantinos@gmail.com?subject=Contact:Greek Museums" target="_blank"><img class="t" src="images/epikinonia.png" width="16px" height="16px"> Επικοινωνία</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- sitemap. -->
+                            <a class="nav-link" href="https://github.com/sofronas/museums" target="_blank"><img class="t" src="images/sitemap.png" width="16px" height="16px"> Sitemap</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- faq. -->
+                            <a class="nav-link" href="faq.html"><img class="t" src="images/faq.png" width="16px" height="16px"> Συχνές Ερωτήσεις</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End of Top Navigation Menu -->
+
+        <!-- Image -->
+        <div class="container">
+            <header class="sfHeader">
+                <div class="row">
+                    <div class="col-md-3 headerP">
+                        <a href="http://dit.uop.gr/index.php/el/">
+                            <img align="middle" id="uopLogo" class="uopLogo" src="images/logo.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 headerP">
+                        <h2 class="blog_title">Greek Museums</h2>
+                        <h4 class="blog_subtitle">Πανεπιστήμιο Πελοποννήσου | Τμήμα Πληροφορικής και Τηλεπικοινωνιών</h4>
+                    </div>
+                    <div class="col-md-3 headerP">
+                        <a href="" id="a">
+                            <img align="middle" id="cLogo" class="cLogo" src="images/museum1.png">
+                        </a>
+                        <a href="">
+                            <img align="right" id="cLogo1" class="cLogo" src="images/museum1.png">
+                        </a>
+
+                    </div>  
+                </div> <!-- end of row -->
+            </header>
+        </div>
+        <!-- End of Image -->
+
+
+        <!-- Main Navigation Bar -->
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark sofron_main_nav">
+                <a class="navbar-brand active" id="home" href="index.html">
+                    <span>
+                        <i class="fas fa-home"></i>
+                    </span>
+                </a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav" id="dropdownUL">
+                        
+                        <!-- <li class="nav-item sofron_static">
+                            <a class="nav-link" href="">
+                                <i class="fas fa-trophy"></i>   Test
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+            </nav>
+            <div class="sbeforenav"></div>
+        </div>
+        <!-- End of Main Navigation Bar -->
+
+
+        <!-- Body -->
+        <div class="container">
+			<div class="row">
+				<div class="container">
+					<div class="body_area">
+						<div class="row">
+							<main role="main" class="container" id="post_area">
+								<div class="row">
+									<div class="col-md-12 p-3 mb-3">
+										<h3 class="pb-3 mb-4 font-italic border-bottom">
+										    Σχετικά με την εργασία
+										</h3>
+										<ul class="sofron_list_unstyled" id="aboutInfoId">
+											<li id="firstItemOfAboutUs">
+												<h5 class="FAQ_Pointer">
+												Ποιος Είμαι;
+												</h5>
+												<div id="faq1" class="FAA">
+													<div class="row">
+														<div class="col-md-8 sb">
+															<img align="middle" src="images/sofronas.jpg" class="sofron zoom" alt="Sofronas Photo" width="175" height="175"> 
+															<h3>Σωφρονάς Κωνσταντίνος Σωτήριος</h3>
+															<h5><b>ΑΜ:</b>	202220160167</h5>
+															<h5><b>Email:</b>	dit16167@uop.gr</h5>
+														</div>
+													</div> <!-- end of row -->
+												</div> <!-- end of faq1 -->
+											</li>
+											<!-- <li id="secondItemOfAboutUs">
+												<h5 class="FAQ_Pointer">
+												Πως ξεκινήσαμε;
+												</h5>
+												<div id="faq2" class="FAA">
+													<div class="row">
+														<div class="col-lg-12">
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+															tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+															quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+															consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+															cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+															proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+														</div>
+													</div>
+												</div> 
+											</li>
+											<li id="thirdItemOfAboutUs">
+												<h5 class="FAQ_Pointer">
+												Ποιοι Είμαστε;
+												</h5>
+												<li id="faq3" class="FAA">Answer 1.</li>
+											</li> -->
+										</ul>
+
+									  </div><!-- /.blog-post -->
+
+									</div><!-- /.blog-main -->
+								</div><!-- /.row -->
+							</main><!-- /.main -->
+						</div> <!-- end of row -->
+						
+			    	</div> <!-- end of body_area -->
+				</div> <!-- end of container -->
+		    </div> <!-- end of row -->
+		</div> <!-- end of container -->
+
+        <!-- Footer Start -->
+        <div class="container">
+            <div class="safternav"></div>
+                <footer class="footAfter">
+                    Copyright ©
+                    <script type="text/javascript">
+                        var year = new Date();
+                        var y = year.getFullYear();
+                        var startY = 2020;
+                        if(y === startY){
+                            document.write(startY);
+                        } else {
+                            document.write(startY);
+                            document.write("-");
+                            document.write(y);
+                        }
+                    </script>
+                    | Designed by <a href="https://sofronas.github.io" target="_blank">Sofronas Konstantinos Sotirios</a> - All rights reserved
+                </footer>
+        </div>
+        <!-- Footer ends here -->
+
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- Custom JavaScript -->
+        <script src="js/mapper.js"></script>
+        <script src="js/aboutus.js"></script>
+    </body>
+</html>
